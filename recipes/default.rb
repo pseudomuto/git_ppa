@@ -14,4 +14,6 @@ apt_repository "git-ppa" do
   key "git-ppa.gpg.key"
 end
 
-package "git" { action :upgrade }
+package "git" do
+  action :upgrade
+end
