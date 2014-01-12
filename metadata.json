@@ -28,5 +28,5 @@
   "recipes": {
     "git_ppa": "Installs the latest stable build of git from ppa"
   },
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
