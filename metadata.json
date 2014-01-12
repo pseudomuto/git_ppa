@@ -1,0 +1,32 @@
+{
+  "name": "git_ppa",
+  "description": "Installs/Configures git from ppa",
+  "long_description": "git_ppa (chef cookbook)\n===========\n\n[![Build Status](https://travis-ci.org/pseudomuto/git_ppa.png?branch=master)](https://travis-ci.org/pseudomuto/git_ppa)\n\nInstalls git from PPA. This is useful when you want to have a recent version of git installed on Ubuntu systems. At the time of written the built-in package sources only had git 1.7.9.\n\nThis cookbook will install the latest stable package from <https://launchpad.net/~git-core/+archive/ppa>.\n\nRequirements\n============\n\n```\nsupports 'ubuntu'\ndepends  'apt'\n```\n\nThis cookbook has been tested on Ubuntu Precise (12.04 LTS). Likely it will working on other versions as well.\n\nUsage\n=====\n\nAdd `recipe[git_ppa]` to your run_list.\n\n",
+  "maintainer": "pseudomuto",
+  "maintainer_email": "david.muto@gmail.com",
+  "license": "Apache 2.0",
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "dependencies": {
+    "apt": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "git_ppa": "Installs the latest stable build of git from ppa"
+  },
+  "version": "0.1.1"
+}
